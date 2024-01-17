@@ -1,0 +1,1209 @@
+body{
+    padding:0px;
+    margin:0px;
+    font-family: 'Mulish', sans-serif;
+}
+
+header{
+    width:100%;
+    height:150px;
+}
+header nav{
+    width:80%;
+    margin:auto;
+    padding-top:3%;
+    display:flex;
+}
+header nav .iconSection{
+    width:30%;
+    display:flex;
+    justify-content: flex-start;
+}
+header nav .iconSection .logo img{
+    width: 48px;
+    height: 56.008px;
+    padding-top:7px;
+}
+header nav .iconSection .title {
+    margin-left:20px;
+}
+header nav .iconSection .title p.logoName{
+    color:#131318;
+    font-size: 36px;
+    font-weight: 1000;
+    margin-top:13px;
+}
+header nav .iconSection .title p.logoName span{
+    color:#FF5400;
+}
+header nav .nav-bar{
+    width:70%;
+    display:flex;
+    justify-content:flex-end;
+    padding-top: 20px;
+    
+}
+header nav .nav-bar .indMenu{
+    margin-left:10px;
+}
+header nav .nav-bar .indMenu button{
+    border:none;
+    background-color: #fff;
+    color:#424247;
+    cursor:pointer;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+header nav .nav-bar .indMenu:hover button{
+    color:#FF5400;
+}
+header nav .nav-bar .drop{
+        display: none;
+}
+
+/* heading-section */
+
+main section.heading{
+    width:100%;
+    height:550px;
+}
+
+main section.heading .container{
+    /* width:80%;
+    height:481px; */
+    width: 1170px;
+    height: 500px;
+    margin:auto;
+    background-image: url("images/Group 13 (1) (1).png");
+    background-size:contain;
+    background-repeat:no-repeat;
+
+}
+main section.heading .container .bgImgSHadow{
+    height: 481px;
+    width: 100%;
+    border-radius: 14px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+main section.heading .container .bgImgSHadow h1{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom:0px;
+}
+main section.heading .container .bgImgSHadow p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0px 20%
+}
+
+main section.heading .container .bgImgSHadow .bookingSection{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+main section.heading .container .bgImgSHadow .bookingSection input, select{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border:#fff;
+    padding-left:15px;
+    font-size: 16px;
+}
+
+main section.heading .container .bgImgSHadow .bookingSection select{
+    color: gray;
+    padding-right:6px;
+}
+
+main section.heading .container .bgImgSHadow .bookingSection button{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border:none;
+    cursor:pointer;
+}
+
+/* Our Popular Tour Section */
+
+section.PopularTour{
+    width:100%;
+    height:590px;
+}
+
+section.PopularTour .container{
+    width:80%;
+    height:550px;
+    margin:auto;
+    display:flex;
+}
+
+section.PopularTour .container .tourDescription{
+    width:50%;
+}
+
+section.PopularTour .container .tourDescription h1.tourHeading{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800px;
+}
+
+section.PopularTour .container .tourDescription p.subHeadingTour, ul> li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-right:10px;
+}
+section.PopularTour .container .tourDescription p.conclusionOfTour{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding-right:20px;
+    line-height: 26px;
+}
+section.PopularTour .container .tourDescription button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border:none;
+    cursor:pointer;
+    font-size:20px;
+    color:white;
+}
+section.PopularTour .container .imgSection{
+    width:50%;
+    height:550px;
+}
+section.PopularTour .container .imgSection img{
+    width:100%;
+    height:100%;
+}
+
+/* destination list */
+
+section.destination{
+    width:100%;
+    height:1150px;
+}
+section.destination .container{
+    width:82%;
+    height:1050px;
+    margin:auto;
+}
+section.destination .container h1{
+    text-align: center;
+    color: #131318;
+    font-size: 40px;
+}
+
+section.destination .container p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding:10px 10%;
+}
+section.destination .container .imgSection{
+    display:grid;
+    grid-template-columns: repeat(4, 263px);
+    grid-template-rows: 300px 206px 300px;;
+    gap:15px;
+}
+section.destination .container .imgSection .imgIndividual1{
+    grid-column: 1 / 3;  
+    background-image: url("images/Rectangle 5.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+section.destination .container .imgSection .imgIndividual2{
+    grid-column: 3 / 5;  
+    background-image: url("images/Rectangle 8.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+section.destination .container .imgSection .imgIndividual3{
+    grid-column: 1 / calc(3/2);  
+    background-image: url("images/Rectangle 6.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+section.destination .container .imgSection .imgIndividual4{
+    grid-column: calc(3/2) / calc(7/2); 
+    background-image: url("images/Rectangle 7.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    border-radius: 15px;
+}
+section.destination .container .imgSection .imgIndividual5{
+    grid-column: calc(7/2) / 5;  
+    background-image: url("images/Rectangle 9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+}
+section.destination .container .imgSection .imgIndividual6{
+    grid-column: 1 / calc(5/2);  
+    background-image: url("images/Rectangle 11.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+}
+section.destination .container .imgSection .imgIndividual7{
+    grid-column: calc(5/2)/5;  
+    background-image: url("images/Rectangle 10.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+}
+
+section.destination .container .imgSection p.countryName{
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 18%;
+}
+
+section.destination .container .imgSection .imgIndividual4 p.countryName{
+    padding-top: 10%;
+}
+
+/* Choose Us */
+
+section.reasonsToChoose{
+    width:100%;
+    height:890px;
+}
+
+section.reasonsToChoose .container{
+    width:80%;
+    height:470px;
+    margin:auto;
+}
+
+section.reasonsToChoose .container{
+    width:80%;
+    height:470px;
+    margin:auto;
+}
+
+section.reasonsToChoose .container h1.reasonToSelect{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+}
+
+section.reasonsToChoose .container p.reasons{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    text-align: center;
+    padding:10px 20%;
+}
+
+section.reasonsToChoose .container .reasonsContainer .reason h2{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+section.reasonsToChoose .container .reasonsContainer .reason p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+section.reasonsToChoose .container .reasonsContainer #reason1, #reason2{
+    width: 483px;
+    height: 284px;
+    display: inline-block;
+    margin:auto;
+    cursor:pointer;
+}
+
+section.reasonsToChoose .container .reasonsContainer #reason1{
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding:30px 10px 5px 30px;
+}
+
+section.reasonsToChoose .container .reasonsContainer .reason svg{
+    width:64px;
+    height:64px;
+}
+
+section.reasonsToChoose .container .reasonsContainer #reason2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding:30px 10px 5px 30px;
+    margin-left:15px;
+    }
+
+    section.reasonsToChoose .container .reasonsContainer #reason3{
+        border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background: rgba(251, 181, 99, 0.05);
+        padding:30px 10px 5px 30px;
+        width: 483px;
+        height: 284px;
+        display: block;
+        margin:auto;
+        margin-top:25px;
+        cursor:pointer;
+        }
+
+
+/* deals and discounts */
+
+section.discounts{
+    width:100%;
+    height:1950px;
+}
+
+section.discounts .container{
+    width:80%;
+    height:95%;
+    margin:auto;
+}
+
+
+section.discounts .container h1.deals{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+section.discounts .container p.dealDes{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding:10px 20% 20px 20%;
+}
+
+section.discounts .container .dealCards{
+width:100%;
+display:flex;
+flex-direction:column;
+}
+section.discounts .container .dealCards .individualDeals{
+    margin-top:25px;
+}
+
+section.discounts .container .dealCards #deal1{
+    background-image: url("images/Group 39.png");
+    width: 1170px;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+    
+    section.discounts .container .dealCards #deal2{
+        background-image: url("images/Group 39.png");
+        width: 1170px;
+        height: 500px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        }
+        section.discounts .container .dealCards #deal3{
+            background-image: url("images/Group 39.png");
+            width: 1170px;
+            height: 500px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            }
+                
+
+            section.discounts .container .dealCards .dealdes{
+                width: 579px;
+                height: 389px;
+                border-radius: 16px;
+                border: 2px solid #FFF;
+                background: rgba(255, 255, 255, 0.80);
+                backdrop-filter: blur(2.5px); 
+                 padding: 20px;
+            }
+
+            section.discounts .container .dealCards .dealdes .timeDeal{
+                display:flex;
+            }
+
+            section.discounts .container .dealCards .dealdes .timeDeal p{
+                color: #5A5A5D;
+                font-family: Mulish;
+                font-size: 16px;
+                margin: 0px 10px 0px 10px;
+            }
+
+            section.discounts .container .dealCards .dealdes h2.location{
+            color: #131318;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: bold;
+
+            }
+            section.discounts .container .dealCards .dealdes p.locationDes{
+                color: #131318;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 800;
+                }
+
+
+                section.discounts .container .dealCards .dealdes h2.price{
+                    color: #FF5400;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: bold;
+            
+                    }
+                    
+                section.discounts .container .dealCards .dealdes button{
+                    width: 150px;
+                    height: 52px;
+                    border-radius: 8px;
+                    background: #FF5400;
+                    color:white;
+                    border:none;
+                    cursor:pointer;
+                    font-size: 20px;
+                    }
+
+                    section.discounts .container .dealCards #deal1 .dealdes,#deal3 .dealdes{
+                        float:right;
+                        margin:35px 35px 0px 0px;
+                        }
+                    section.discounts .container .dealCards #deal2 .dealdes{
+                            margin:35px 0px 0px 35px;
+                            }
+                            
+                            section.discounts button.all{
+                                width: 210px;
+                                height: 52px;
+                                flex-shrink: 0;
+                                border-radius: 8px;
+                                background: #FF5400;
+                                color:white;
+                                border:none;
+                                cursor:pointer; 
+                                display: block;
+                                margin: auto;;
+                            }
+
+
+
+
+/* footer section */
+
+footer{
+    width:100%;
+    height:502px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+footer .container{
+    width:80%;
+    height:100%;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* Meet my team */
+
+section.teamMember{
+    width:100%;
+    height:340px;
+}
+section.teamMember .container{
+    width:80%;
+    height:93%;
+    background-color: #FFEAA7;
+    margin:auto;
+    border-radius:15px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section.teamMember .container h1.teamHeading{
+    color:#FF6000;
+    margin-top:20px;
+    font-size:22px;
+    margin-bottom:0;
+}
+section.teamMember .container hr{
+    border:1px solid #3D3B40;
+    width:5%;
+    margin: auto;
+
+}
+
+section.teamMember .container .teamList{
+display: flex;
+justify-content:space-evenly;
+width:100%;
+
+}
+section.teamMember .container .teamList .img{
+    height:90px;
+    width:90px;
+    background-color: gray;
+    border-radius:50%;
+    
+    }
+
+    section.teamMember .container .teamList .individualMem:hover h1.name{
+    color:#0E2954;
+    cursor:pointer;
+        }
+
+    section.teamMember .container .teamList h1.name{
+            text-align: center;
+            font-size:30px;
+            font-family: Garamond, serif;
+            
+            }
+
+/* last section */
+
+section.last{
+    width:100%;
+    height:1150px;
+}
+
+section.last .container{
+    height:100%;
+    width:80%;
+    margin:auto;
+}
+
+section.last .container .upperhalf{
+    height:50%;
+    display: block;
+}
+section.last .container .lowerHalft{
+    height:50%;
+    display: block;
+    margin-top:20px;
+}
+section.last .container .upperhalf .topLeft{
+    width:55%;
+    float:left;
+}
+section.last .container .upperhalf .topLeft h1{
+    color: #131318;
+    font-size: 40px;
+}
+
+section.last .container .upperhalf .topLeft p.shortDes{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+section.last .container .upperhalf .topLeft ul li>p{
+    color: #131318; 
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+section.last .container .upperhalf .topLeft button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    cursor:pointer;
+    border:none;
+}
+
+section.last .container .upperhalf .topRightVideo{
+    width:40%;
+    height:60%;
+    float:right;
+    border-radius:15px;
+
+}
+section.last .container .upperhalf .topRightVideo video{
+    width:100%;
+    height:100%;
+    border-radius:15px;
+}
+
+section.last .container .lowerHalft form{
+    width:45%;
+    height: 422px;
+    float:left;
+    border:1px dotted #FF5400;
+    padding:12px;
+    display: block;
+    border-radius: 15px;
+}
+
+section.last .container .lowerHalft form h2{
+    color: #131318;
+    font-size: 24px;
+}
+
+section.last .container .lowerHalft form p{
+    color: #5A5A5D;
+    font-size: 16px;
+    margin-bottom:50px;
+}
+section.last .container .lowerHalft form input{
+    width: 393px;
+    height:52px;
+    font-size:16px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border:none;
+    display:block;
+    margin:20px 0px;
+}
+
+section.last .container .lowerHalft form button{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color:#fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+}
+section.last .container .lowerHalft form hr{
+    border: 1px solid rgba(19, 19, 24, 0.10);
+}
+
+
+section.last .container .img{
+    width:50%;
+    height:78%;
+    float:right;
+    background-image: url("images/Rectangle 8 (1).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius:15px;
+    position:relative;
+}
+
+
+section.last .container .img .saveYourMoney{
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    bottom:48px;
+    right:5px;
+}
+
+section.last .container .img .saveYourMoney h2{
+    margin:0px
+}
+
+/* footer section */
+
+footer .container .brandSection{
+    display: flex;
+}
+footer .container h2{
+    color: #FF5400;
+    font-size: 21.543px;
+    margin-left:5px;
+}
+footer .container h2 span{
+    color:#131318 ;
+}
+footer .container p{
+    text-align:center;
+    padding:10px 20%;
+}
+
+footer .container .socialMedia{
+    display:flex;
+}
+footer .container .socialMedia .indlog{
+    padding:10px 20px;
+    font-size:25px;
+}
+
+footer .container hr{
+    width:100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* responsive_mobile */
+@media screen and (max-width:375px){
+    
+    header{
+        height:80px;
+    }
+
+    header nav .iconSection{
+        width:70%;
+    }
+    header nav .nav-bar{
+        width:30%;
+    }
+
+    header nav .iconSection .logo img{
+        width: 28.724px;
+        height: 33.516px;
+        padding-top:10px;
+    }
+    header nav .iconSection .title p.logoName{
+        font-size: 21.543px;
+    }
+
+    header nav .nav-bar .indMenu{
+        display:none;
+    }
+
+    header nav .nav-bar .drop{
+        display: block;
+        cursor:pointer;
+}
+
+
+/* heading-section */
+main section.heading{
+    width:100%;
+    height:510px;
+}
+
+main section.heading .container{
+    width:80%;
+    height:483px;
+    background-size:cover;
+    background-position: center;
+    border-radius:15px;
+}
+main section.heading .container .bgImgSHadow{
+    height:483px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+main section.heading .container .bgImgSHadow h1{
+    font-size: 22px;
+}
+
+main section.heading .container .bgImgSHadow p{
+    font-size: 14px;
+    padding: 0px 5%;
+}
+
+main section.heading .container .bgImgSHadow .bookingSection{
+    display: flex;
+    width: 80%;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+
+}
+
+main section.heading .container .bgImgSHadow .bookingSection input{
+    width: 205px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+main section.heading .container .bgImgSHadow .bookingSection select{
+    width: 220px;
+    height: 42px;
+}
+
+main section.heading .container .bgImgSHadow .bookingSection button{
+    width: 220px;
+    height: 42px;
+}
+
+/* Our Popular Tour Section */
+
+section.PopularTour{
+    width:100%;
+    height:1220px;
+}
+section.PopularTour .container{
+    width:80%;
+    height:1181px;
+    margin:auto;
+    display:block;
+}
+section.PopularTour .container .imgSection{
+    width:100%;
+    height:550px;
+}
+section.PopularTour .container .tourDescription{
+    width:100%;
+    margin-bottom:20px;
+}
+section.PopularTour .container .tourDescription h1.tourHeading{
+    font-size: 20px;
+}
+section.PopularTour .container .tourDescription p.subHeadingTour, ul> li{
+    font-size: 14px;
+    padding:0px;
+}
+section.PopularTour .container .tourDescription p.conclusionOfTour{
+    font-size: 14px;
+    padding-right:0px;
+}
+section.PopularTour .container .tourDescription button{
+    width: 144px;
+    height: 42px;
+    border-radius: 8px;
+    font-size:14px;
+}
+
+/* choose Your Destination */
+
+section.destination{
+
+    height:1662px;
+}
+section.destination .container{
+    width:82%;
+    height:1632px;
+    margin:auto;
+}
+
+section.destination .container h1{
+
+    font-size: 20px;
+}
+
+section.destination .container p{
+    font-size: 14px;
+    line-height: 24px;
+    padding:5px 1%;
+}
+
+section.destination .container .imgSection{
+    display:block;
+
+}
+
+section.destination .container .imgSection .imgIndividual1, .imgIndividual2, .imgIndividual3, .imgIndividual4, .imgIndividual5, .imgIndividual6, .imgIndividual7{
+    height: 176px;
+    width:100%;
+}
+
+section.destination .container .imgSection .imgIndividual4 p.countryName{
+    padding-top: 15%;
+}
+
+/* choose Me */
+
+section.reasonsToChoose .container h1.reasonToSelect{
+    font-size: 20px;
+}
+
+section.reasonsToChoose .container p.reasons{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 13px;
+    padding:10px 5%;
+}
+
+section.reasonsToChoose .container .reasonsContainer #reason1, #reason2, #reason3{
+    width: 100%;
+    height: 289px;
+    padding: 20px 0px 0px 20px;
+}
+section.reasonsToChoose .container .reasonsContainer #reason3{
+    width: 100%;
+    height: 289px;
+    padding: 20px 0px 0px 20px;
+}
+
+section.reasonsToChoose .container .reasonsContainer .reason h2{
+    font-size: 20px;
+}
+
+section.reasonsToChoose .container .reasonsContainer .reason p{
+    font-size: 14px;
+}
+section.reasonsToChoose .container .reasonsContainer .reason svg{
+    width:48px;
+    height:48px;
+}
+
+section.reasonsToChoose .container .reasonsContainer #reason2{
+    padding:20px 0px 0px 20px;
+    margin-top:15px;
+    margin-left:0px;
+    }
+
+    section.reasonsToChoose{
+        width:100%;
+        height:1180px;
+    }
+
+/* Deal & Discount */
+
+section.discounts .container h1.deals{
+    font-size: 20px;
+}
+
+section.discounts .container p.dealDes{
+    font-size: 14px;
+    padding:5px;
+}
+
+section.discounts .container .dealCards #deal1{
+        width: 100%;
+        background-size: cover;
+        background-position:center;
+        border-radius:12px;
+    }
+    
+    section.discounts .container .dealCards #deal2{
+            width: 100%;
+            background-size: cover;
+            background-position:center;
+            border-radius:12px;
+        }
+        section.discounts .container .dealCards #deal3{
+            width: 100%;
+            background-size: cover;
+            background-position:center;
+            border-radius:12px;
+            }
+
+
+    section.discounts .container .dealCards .dealdes{
+        width: 203px;
+    height: 327px;
+    padding: 20px;
+            }
+
+
+    section.discounts .container .dealCards .dealdes h2.location{
+                font-size: 20px;
+    
+                }
+    section.discounts .container .dealCards .dealdes p.locationDes{
+                    font-size: 14px;
+                    }
+    
+    
+    section.discounts .container .dealCards .dealdes h2.price{
+                        font-size: 16px;
+                
+                        }
+                        
+    section.discounts .container .dealCards .dealdes button{
+                        width: 130px;
+                        height: 40px;
+                        font-size: 18px;
+                        }
+
+    section.discounts .container .dealCards .dealdes .timeDeal p{
+                            font-size: 12px;
+                            padding-top:5px;
+                        }
+    section.discounts .container .dealCards .dealdes .timeDeal p.duration{
+        margin-right:90px;
+        padding-top:2px;
+                        }
+        section.discounts .container .dealCards .dealdes .timeDeal{
+                            flex-wrap: wrap;
+                        }
+                        section.discounts .container .dealCards .dealdes .timeDeal svg{
+                            width:24px;
+                            height:24px;
+                        }
+
+/* My team */
+section.teamMember{
+    width:100%;
+    height:540px;
+}
+section.teamMember .container .teamList{
+    display: flex;
+    justify-content:space-evenly;
+    width:80%;
+    flex-wrap: wrap;
+    gap:10px;
+    }
+
+
+
+/* last */
+
+
+section.last{
+    width:100%;
+    height:1620px;
+}
+section.last .container .upperhalf{
+    height:auto;
+}
+section.last .container .upperhalf .topLeft{
+    width:100%;
+    float:none;
+}
+
+section.last .container .upperhalf .topRightVideo{
+    width:100%;
+    height:220px;
+    float:none;
+   display: block;
+   margin-top:30px;
+
+}
+
+section.last .container .upperhalf .topLeft{
+    width:100%;
+    float:none;
+}
+
+section.last .container .lowerHalft form{
+    width:100%;
+    height: 422px;
+    float:none;
+    padding:8px;
+    display: block;
+
+}
+section.last .container .lowerHalft form input{
+    width: 288px;
+    height: 52px;
+    border:none;
+}
+
+section.last .container .lowerHalft form button{
+    width: 288px;
+    padding-left: 10px;
+    
+}
+
+section.last .container .img{
+    width:100%;
+    height:300px;
+    margin-top:20px;
+    float:none;
+
+}
+
+
+section.last .container .img .saveYourMoney{
+    width: 214.023px;
+    height: 79.268px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    bottom:30px;
+    right:2px;
+}
+
+section.last .container .img .saveYourMoney h2{
+    font-size: 20px;
+}
+
+
+section.last .container .img .saveYourMoney p{
+    font-size: 14px;
+    margin:0px;
+}
+
+section.last .container .lowerHalft form h2{
+    color: #131318;
+    font-size: 20px;
+}
+section.last .container .upperhalf .topLeft h1{
+    color: #131318;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
