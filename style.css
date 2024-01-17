@@ -46,6 +46,9 @@ header nav .nav-bar{
 header nav .nav-bar .indMenu{
     margin-left:10px;
 }
+#menu{
+    color: #FF5400;
+}
 header nav .nav-bar .indMenu button{
     border:none;
     background-color: #fff;
